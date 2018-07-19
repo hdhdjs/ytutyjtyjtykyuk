@@ -266,4 +266,4 @@ return;
          });
 
 
-KiNg66S.login(process.env.BOT_TOKEN2);
+KiNg66S.login(process.env.BOT_TOOKEN);
