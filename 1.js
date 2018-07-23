@@ -264,6 +264,64 @@ return;
          message.channel.send({embed:heroo})
            }
          });
+KiNg66S.on('message', message => {
+ if (message.content === "!rank bronze") {
+     if(!message.channel.guild) return;
+         message.delete()
 
+  message.member.addRole(message.guild.roles.find("name", "Bronz"));
+ 
+ }
+ }); 
+
+
+KiNg66S.on('message', message => {
+ if (message.content === "!rank platinum") {
+     if(!message.channel.guild) return;
+         message.delete()
+
+  message.member.addRole(message.guild.roles.find("name", "Platinum"));
+ 
+ }
+ }); 
+ 
+ 
+KiNg66S.on('message', message => {
+ if (message.content === "!rank silver") {
+     if(!message.channel.guild) return;
+         message.delete()
+
+  message.member.addRole(message.guild.roles.find("name", "Silver"));
+ 
+ }
+ }); 
+ KiNg66S.on('message', message => {
+ if (message.content === "!rank diamond") {
+     if(!message.channel.guild) return;
+         message.delete()
+
+  message.member.addRole(message.guild.roles.find("name", "Diamond"));
+ 
+ }
+ }); 
+ KiNg66S.on('message', message => {
+ if (message.content === "!rank master") {
+     if(!message.channel.guild) return;
+         message.delete()
+
+  message.member.addRole(message.guild.roles.find("name", "Master"));
+ 
+ }
+ }); 
+ KiNg66S.on('message', message => {
+ if (message.content === "!rank challenger") {
+     if(!message.channel.guild) return;
+         message.delete()
+
+  message.member.addRole(message.guild.roles.find("name", "Challenger"));
+ 
+ }
+ }); 
+ 
 
 KiNg66S.login(process.env.BOT_TOOKEN);
