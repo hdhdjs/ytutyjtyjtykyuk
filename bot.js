@@ -22,6 +22,8 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
+	  client.user.setActivity(".Anime Time ", {type: 'WATCHING'})
+
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -218,7 +220,7 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 
 const adminprefix = "$vip";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const devs = ['274923685985386496'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const devs = ['474520407450320899'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
     if (!devs.includes(message.author.id)) return;//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
